@@ -1,0 +1,167 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Movies</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mvcards.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container-lg">
+            <a class="navbar-brand text-light" href="index.html">Youtube Movies</a>
+            <form class="d-flex my-auto mx-3" role="search">
+                <input class="form-control mx-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-light" href="#">Catalog</a>                    
+                    <a class="nav-link text-light" href="#">Sign Up</a>
+                    <a class="nav-link text-light" href="#">Log In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-lg my-5">
+        <div class="row">
+            <div class="col-3" id="params">
+                <!-- Search Params -->
+                <div class="card">
+                    <div class="card-header">
+                        Search Terms
+                    </div>
+                    <form role="search" class="mb-0">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            </li>
+                            <li class="list-group-item">
+                                <h5>Genres</h5>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="animation">
+                                    <label class="form-check-label" for="animation">Animation</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="horror">
+                                    <label class="form-check-label" for="horror">Horror</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="comedy">
+                                    <label class="form-check-label" for="comedy">Comedy</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Adventure">
+                                    <label class="form-check-label" for="Adventure">Adventure</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="Crime">
+                                    <label class="form-check-label" for="Crime">Crime</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item d-flex" style="justify-content: space-evenly;">
+                                <button class="btn btn-outline-danger" type="submit">Reset</button>
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="grid">
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                    <a class="card text-bg-dark" href="movie.html?id=1">
+                        <img src="./media/AHeistWithMarkiplier.jpg"
+                            class="card-img " alt="...">
+                        <div class="card-img-overlay d-flex flex-column">
+                            <h4 class="card-title">A Heist with Markiplier</h4>
+                            <p class="card-text desc">You join Markiplier on the heist of a lifetime, but in this original comedic 
+                                interactive story you decide how the heist turns out in the end. Choose wisely.</p>
+                            <p class="card-text"><small>Adventure, Comedy, Crime</small></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

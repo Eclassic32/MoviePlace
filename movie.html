@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Movies</title>
+    <link rel="stylesheet" href="./css/movie-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mvcards.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        /* body {
+            background-color: #6b6b6b;
+        } */
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-light" href="index.html">Youtube Movies</a>
+            <form class="d-flex my-auto mx-3" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-light" href="#">Catalog</a>                    
+                    <a class="nav-link text-light" href="#">Sign Up</a>
+                    <a class="nav-link text-light" href="#">Log In</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container d-flex flex-column">
+        <div class="my-4 grid">
+            <div class="poster">
+                <img src="media/AHeistWithMarkiplier.jpg" alt="">
+            </div>
+            <h1 class="title">A Heist with Markiplier</h1>
+            <p class="desc">You join Markiplier on the heist of a lifetime, but in this original comedic interactive
+                story you decide how the heist turns out in the end. Choose wisely.</p>
+            <div class="genres">
+                <p><b>Genres:</b> Adventure, Comedy, Crime</p>
+            </div>
+            <div class="rating">
+                <p><b>Rating:</b> 7.0</p>
+            </div>
+            <div class="actor">
+                <ul>
+                    <li>Mark Fischbach as Mark</li>
+                    <li>Rosanna Pansino as Professor Beauregard</li>
+                    <li>Matthew Patrick as Hermit</li>
+                </ul>
+            </div>
+            <div class="date">
+                <p><b>Premiere date:</b> 18/03/2023</p>
+            </div>
+            <div class="screenshots">
+                <div class="owl-carousel owl-theme">
+                    <img src="media/ss1.jpg" alt="">
+                    <img src="media/ss2.jpg" alt="">
+                    <img src="media/ss3.jpg" alt="">
+                    <img src="media/ss4.jpg" alt="">
+                    <img src="media/ss5.jpg" alt="">
+                </div>
+                <div class="custom-nav mt-2">
+                    <div class="owl-dots"></div> <!-- Navigation dots -->
+                    <div class="owl-nav">
+                        <button class="owl-prev"><i class="fas fa-chevron-left"></i></button> <!-- Prev button -->
+                        <button class="owl-next"><i class="fas fa-chevron-right"></i></button> <!-- Next button -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <iframe width="720" height="405" src="https://www.youtube-nocookie.com/embed/9TjfkXmwbTs"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen class="mx-auto my-4"></iframe>
+    </main>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/carousel.js"></script>
+</body>
+
+</html>
